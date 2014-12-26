@@ -7,3 +7,6 @@
 meteor-platform
 autopublish
 insecure
+reywood:bootstrap3-sass
+mquandalle:jade
+iron:router
