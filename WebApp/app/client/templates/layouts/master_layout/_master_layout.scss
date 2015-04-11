@@ -2,6 +2,25 @@
 /* master-layout: Style */
 /*****************************************************************************/
 #main-navbar {
-    background-color: $primary-color;
+    // background-color: $primary-color;
+    @extend .primcol-container;
 }
 
+.left li:hover , .right li:hover{
+    background-color: rgba(255,255,255,.1);
+}
+
+#re_logo {
+    height: 70%;
+    top: 10%;
+}
+
+.button-collapse {
+    left:15px;
+}
+
+.parallax-container {
+    width: 100%;
+    position: absolute;
+    height: 2800px;
+}

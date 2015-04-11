@@ -1,27 +1,57 @@
 /*****************************************************************************/
 /* _colors: Global colors number and classes for the app */
 /*****************************************************************************/
-$primary-color: #ff8f00;
-$primary-color-light: #ffc107;
-$primary-color-dark: #ff6f00;
+$primary-color: #311b92;
+$primary-color-light: #3f51b5;
+$primary-color-dark: #1a237e;
+$text-primary-color:#e0f7fa;
 
 $secondary-color: #e91e63;
-$secondary-color-light: #f06292;
+$secondary-color-light: #4527a0;
 $secondary-color-dark: #c2185b;
 $secondary-color-accent: #f50057;
+$text-secondary-color:#e0f2f1;
 
-.primcol-light {
+
+// .primcol {
+//     @extend .indigo;
+// }
+
+// .text-primcol {
+//     @extend .cyan;
+// }
+
+.primcol-light-container {
     background-color: $primary-color-light;
+    color : $text-primary-color;
 }
 
-.primcol-dark {
-    background-color: $primary-color-dark;
-}
-
-.primcol {
+.primcol-container {
     background-color: $primary-color;
+    color : $text-primary-color;
 }
 
-.seccol {
+.primcol-dark-container {
+    background-color: $primary-color-dark;
+    color : $text-primary-color;
+}
+
+// .primcol-dark-container {
+//     @extend .primcol, .darken-4;
+//     @extend .text-primcol, .lighten-2;
+// }
+
+// .primcol-container {
+//     @extend .primcol, .darken-3;
+//     @extend .text-primcol, .lighten-3;
+// }
+
+.seccol-light-container {
+    background-color: $secondary-color-light;
+    text: $text-secondary-color;
+    opacity: 0.9;
+}
+
+.seccol-accent-container {
     background-color: $secondary-color;
 }

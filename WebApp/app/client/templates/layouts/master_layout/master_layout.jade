@@ -2,20 +2,40 @@ template(name="MasterLayout")
     .navbar-fixed
         nav#main-navbar.z-depth-5
             .nav-wrapper
-                .brand-logo.center Bridges
+                img#re_logo.brand-logo.center(src="re_logo.png")
+                a.button-collapse(data-activates="mobile-demo")
+                    i.mdi-navigation-menu
                 ul.left.hide-on-med-and-down
                     li
                         a
+                    li
+                        a
+                            i.mdi-hardware-headset
+                    li
+                        a
+                            i.mdi-social-whatshot
+                ul.right.hide-on-med-and-down
+                    if currentUser
+                        .logout-button.waves-effect.waves-light.btn
+                            | Logout
                     li 
                         a About
                     li
                         a
-                            i.mdi-action-search
-                ul.right
+                ul.side-nav.center#mobile-demo
                     if currentUser
-                        #logout-button.waves-effect.waves-light.btn.pink
-                            | Logout
                         li
-                            a
-    .container
-        +yield
+                            .logout-button.waves-effect.waves-light.btn Logout
+                    li
+                        a
+                            i.mdi-hardware-headset
+                    li
+                        a
+                            i.mdi-social-whatshot
+                    li 
+                        a About
+    .parallax-container
+        .parallax
+            img(src="espace2.jpg")
+    .container.z-depth-2.primcol-dark-container
+            +yield

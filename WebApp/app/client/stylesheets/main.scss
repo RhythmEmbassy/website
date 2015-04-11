@@ -9,6 +9,7 @@
 @import 'client/templates/login/login';
 
 body {
-    background-color: $primary-color-dark;
-    color: $primary-color-light;
+    // @extend .seccol-light-container;
+    // background-image: url("espace2.jpg");
+    // background-size:100%;
 }
