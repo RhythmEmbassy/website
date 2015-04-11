@@ -1,0 +1,18 @@
+/*****************************************************************************/
+/* Home: Style for login buttons*/
+/* cf inspector on login buttons */
+
+/*****************************************************************************/
+.form-wrapper {
+    background-color: $secondary-color-accent;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.form-wrapper .at-input label {
+    color: $primary-color-light;
+}
+.form-wrapper .at-input input {
+    border-bottom-color: $primary-color;
+}

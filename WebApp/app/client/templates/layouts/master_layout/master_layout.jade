@@ -1,0 +1,21 @@
+template(name="MasterLayout")
+    .navbar-fixed
+        nav#main-navbar.z-depth-5
+            .nav-wrapper
+                .brand-logo.center Bridges
+                ul.left.hide-on-med-and-down
+                    li
+                        a
+                    li 
+                        a About
+                    li
+                        a
+                            i.mdi-action-search
+                ul.right
+                    if currentUser
+                        #logout-button.waves-effect.waves-light.btn.pink
+                            | Logout
+                        li
+                            a
+    .container
+        +yield

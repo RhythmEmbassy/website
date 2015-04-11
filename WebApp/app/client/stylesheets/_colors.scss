@@ -1,0 +1,27 @@
+/*****************************************************************************/
+/* _colors: Global colors number and classes for the app */
+/*****************************************************************************/
+$primary-color: #ff8f00;
+$primary-color-light: #ffc107;
+$primary-color-dark: #ff6f00;
+
+$secondary-color: #e91e63;
+$secondary-color-light: #f06292;
+$secondary-color-dark: #c2185b;
+$secondary-color-accent: #f50057;
+
+.primcol-light {
+    background-color: $primary-color-light;
+}
+
+.primcol-dark {
+    background-color: $primary-color-dark;
+}
+
+.primcol {
+    background-color: $primary-color;
+}
+
+.seccol {
+    background-color: $secondary-color;
+}

@@ -7,7 +7,14 @@
 meteor-platform
 autopublish
 insecure
-mquandalle:jade
 iron:router
-fourseven:scss
+msavin:mongol
 materialize:materialize
+accounts-base
+accounts-password
+aldeed:autoform
+aldeed:collection2
+mquandalle:jade
+useraccounts:materialize
+fourseven:scss
+msavin:jetsetter

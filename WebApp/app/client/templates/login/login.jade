@@ -1,0 +1,13 @@
+template(name="Login")
+    if currentUser
+        h3.primcol-light Already logged in
+    else if loggingIn
+        .container(style="text-align:center;")
+            br
+            +Loading
+    else
+        .form-wrapper.z-depth-2
+            +atForm
+
+template(name="Content")
+    h1 #{title}

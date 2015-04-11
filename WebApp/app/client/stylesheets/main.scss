@@ -1,0 +1,14 @@
+/*****************************************************************************/
+/* main: Style imports from scss partials */
+/*****************************************************************************/
+
+
+@import 'colors';
+
+@import 'client/templates/layouts/master_layout/master_layout';
+@import 'client/templates/login/login';
+
+body {
+    background-color: $primary-color-dark;
+    color: $primary-color-light;
+}
