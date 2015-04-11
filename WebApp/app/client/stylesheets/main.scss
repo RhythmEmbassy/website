@@ -10,6 +10,14 @@
 
 body {
     // @extend .seccol-light-container;
-    // background-image: url("espace2.jpg");
-    // background-size:100%;
+    background-image: url("espace2.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    opacity: 0.8;
+    border-radius: 20px;
 }
