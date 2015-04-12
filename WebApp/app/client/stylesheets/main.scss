@@ -8,9 +8,9 @@
 @import 'client/templates/layouts/master_layout/master_layout';
 @import 'client/templates/login/login';
 
-html {
-    font-family: Verdana, Calibri, Trebuchet, sans-serif;
-}
+// html {
+//     font-family: Verdana, Calibri, Trebuchet, sans-serif;
+// }
 
 body {
     // @extend .seccol-light-container;
@@ -23,5 +23,4 @@ body {
 
 .container {
     margin-top: 10px;
-    opacity: 0.95;
 }

@@ -9,8 +9,8 @@ $text-primary-color: white;
 $secondary-color: #673ab7;
 $secondary-color-light: #7e57c2;
 $secondary-color-dark: #424242;
-$secondary-color-accent: #aa00ff;
-$text-secondary-color: #e3f2fd;
+$secondary-color-accent: #ff1744;
+$text-secondary-color: white;
 
 
 // .primcol {
@@ -33,7 +33,8 @@ $text-secondary-color: #e3f2fd;
 }
 
 .primcol-dark-container {
-    background-color: $primary-color-dark;
+    // background-color: $primary-color-dark;
+    background-color: rgba(38,50,56,0.6);
     color : $text-primary-color;
 }
 
@@ -56,4 +57,5 @@ $text-secondary-color: #e3f2fd;
 .seccol-accent-container {
     background-color: $secondary-color-accent
     ;
+    color: $text-secondary-color;
 }

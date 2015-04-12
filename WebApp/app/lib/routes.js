@@ -32,3 +32,10 @@ Router.route('test', {
   action: 'action',
   where: 'client'
 });
+
+Router.route('/', {
+  name: 'home',
+  controller: 'HomeController',
+  action: 'action',
+  where: 'client'
+});
