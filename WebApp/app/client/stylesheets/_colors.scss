@@ -1,16 +1,16 @@
 /*****************************************************************************/
 /* _colors: Global colors number and classes for the app */
 /*****************************************************************************/
-$primary-color: #311b92;
-$primary-color-light: #3f51b5;
-$primary-color-dark: #1a237e;
-$text-primary-color:#e0f7fa;
+$primary-color: #1a237e;
+$primary-color-light: #283593;
+$primary-color-dark: #10154d;
+$text-primary-color: white;
 
-$secondary-color: #e91e63;
-$secondary-color-light: #4527a0;
-$secondary-color-dark: #c2185b;
-$secondary-color-accent: #f50057;
-$text-secondary-color:#e0f2f1;
+$secondary-color: #673ab7;
+$secondary-color-light: #7e57c2;
+$secondary-color-dark: #424242;
+$secondary-color-accent: #aa00ff;
+$text-secondary-color: #e3f2fd;
 
 
 // .primcol {
@@ -49,7 +49,7 @@ $text-secondary-color:#e0f2f1;
 .seccol-light-container {
     background-color: $secondary-color-light;
     text: $text-secondary-color;
-    opacity: 0.9;
+    // opacity: 0.9;
 }
 
 .seccol-accent-container {
