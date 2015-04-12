@@ -24,3 +24,7 @@ body {
 .container {
     margin-top: 10px;
 }
+
+#footer {
+    @extend .primcol-light-container
+}
