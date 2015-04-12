@@ -8,9 +8,13 @@
 @import 'client/templates/layouts/master_layout/master_layout';
 @import 'client/templates/login/login';
 
+html {
+    font-family: Verdana, Calibri, Trebuchet, sans-serif;
+}
+
 body {
     // @extend .seccol-light-container;
-    background-image: url("espace4.jpg");
+    background-image: url("espace5.jpg");
     background-size:100%;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -18,6 +22,6 @@ body {
 }
 
 .container {
-    border-radius: 5px;
     margin-top: 10px;
+    opacity: 0.95;
 }
