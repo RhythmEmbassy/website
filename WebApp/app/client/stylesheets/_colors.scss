@@ -38,6 +38,19 @@ $text-secondary-color: white;
     color : $text-primary-color;
 }
 
+.primcol-accent-1-container {
+    // background-color: $primary-color-accent;
+    background-color: rgba(233,30,99,0.6);
+    color : $text-primary-color;
+}
+
+.primcol-accent-container {
+    // background-color: $primary-color-accent;
+    background-color: rgba(94,53,177,0.6);
+    color : $text-primary-color;
+}
+
+
 // .primcol-dark-container {
 //     @extend .primcol, .darken-4;
 //     @extend .text-primcol, .lighten-2;
